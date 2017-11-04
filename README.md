@@ -10,7 +10,7 @@ This configures the basic sample detailed here: http://docs.vespa.ai/documentati
 # How To Run
 
 ```bash
-git clone --recurse-submodules git@github.com-nbcsteveb:nbcsteveb/vespa.sh.git vespa;
+git clone --recurse-submodules https://github.com/nbcsteveb/vespa.sh.git vespa;
 cd vespa;
 ./vespa.sh
 ```
