@@ -1,0 +1,10 @@
+version: '3'
+services:
+    vespa:
+        image: vespaengine/vespa:latest
+        hostname: vespa-container
+        privileged: true
+        volumes:
+            - $VESPA_SAMPLE_APPS:/vespa-sample-apps
+        ports:
+            - "8080:8080"
